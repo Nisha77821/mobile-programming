@@ -7,13 +7,21 @@
     >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:gravity="center"
         android:text="NSC"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:background="#ff0000"
+        android:textColor="@color/white"
         ></TextView>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="assignment activity"
+       android:textSize="25sp"></TextView>
+
 
     <LinearLayout
         android:layout_width="match_parent"
